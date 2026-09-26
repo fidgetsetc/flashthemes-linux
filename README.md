@@ -4,6 +4,8 @@
 ## Security Warning
 ONLY use this browser for FlashThemes. Going on any other websites can cause your device and browser to be exploited.
 Also, do not share your setup with other people, unless all sensitive data has been cleared from the profile. It is best to share this repo with them instead.
+## What even is FlashThemes?
+FlashThemes is a free-to-use revival of old GoAnimate, mainly using Flash. You have to use it with specific browsers, and the main tutorial mainly shows Windows and MacOS X. Not Linux. That is why this repo exists.
 ## How to begin
 - Open a terminal
 - Install the following dependencies with your package manager: `git git-lfs`
@@ -18,7 +20,8 @@ v87 is newer, but Flash support is messy. But, the profile is built for it.
 ## Which version should I pick?
 For the least effort, pick v75. It's the better one to choose. v87 was the version used for internal testing, but is not recommended. v87 is there if you absolutely need a newer browser for whatever reason, but v75 does the job better. v87 doesn't need that much effort but overall just isn't ideal.
 ## Known issues
-- v75 appears to have major graphical issues on GNOME 48.7, and graphical issues may occur on other GNOME versions. We cannot fix this. This was in a VM, graphical issues may be different.
+- v75 appears to have major graphical issues on GNOME 48.7, and graphical issues may occur on other GNOME versions. We cannot fix this, it is a Chromium issue. This was in a VM, graphical issues may be different on your system.
+- I have not experienced this, but it will probably happen, but GTK themes may not work well with the browser. GTK themes are the default to fit in with your system more, but sometimes they don't work as expected. If you don't want to change your GTK theme, you can go into Chromium Settings, scroll down to Appearance, and then click Use Classic. This will set the theme to the default Chrome colors!
 ## Will there be more versions?
 Possibly. Older versions may need me to run older Debian versions in a VM, but if you want to do some testing, absolutely, go for it, I might merge it.
 ## Do I need to do much?

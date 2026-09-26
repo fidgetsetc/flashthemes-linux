@@ -13,6 +13,8 @@ Also, do not share your setup with other people, unless all sensitive data has b
 ## What's the difference between v75 and v88?
 v75 supports Flash entirely, you have to enable Flash manually, but it needs much less effort. It uses a newer profile, so you do get an error message, but it should work.
 v88 is newer, but Flash support is messy. But, the profile is built for it.
+## Which version should I pick?
+For the least effort, pick v75. It's the better one to choose. v88 was the version used for internal testing, but is not recommended. v88 is there if you absolutely need a newer browser for whatever reason, but v75 does the job better.
 ## Do I need to do much?
 Not really, the profile has been pre-configured, and FlashThemes has been set to start automatically.
 ## Why does this exist?

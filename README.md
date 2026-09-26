@@ -15,6 +15,8 @@ v75 supports Flash entirely, you have to enable Flash manually, but it needs muc
 v88 is newer, but Flash support is messy. But, the profile is built for it.
 ## Which version should I pick?
 For the least effort, pick v75. It's the better one to choose. v88 was the version used for internal testing, but is not recommended. v88 is there if you absolutely need a newer browser for whatever reason, but v75 does the job better.
+## Will there be more versions?
+Possibly. Older versions may need me to run older Debian versions in a VM, but if you want to do some testing, absolutely, go for it, I might merge it.
 ## Do I need to do much?
 Not really, the profile has been pre-configured, and FlashThemes has been set to start automatically.
 ## Why does this exist?

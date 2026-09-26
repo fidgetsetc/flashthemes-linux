@@ -1,4 +1,3 @@
-echo "You may see a profile error. You can safely ignore it."
 echo "How to allow Flash:"
 echo "Flash shall already be allowed."
 echo "To start it, just scroll down and click the Click to enable Flash Player box."

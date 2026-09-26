@@ -33,7 +33,7 @@ This has been tested on KDE Plasma 6.3.6 with Wayland, so it will likely work, h
 It has been tested on Debian 13.7 Trixie, running KDE Plasma.
 ## What has been used in the making of this?
 - Adobe Flash Player (Pepper/PPAPI) so
-- ungoogled-chromium 88 Linux tar.gz
+- ungoogled-chromium 87 Linux tar.gz
 - ungoogled-chromium 75 Linux tar.gz
 ## What's with the sandbox? Why is there no sandbox?
 There is no sandbox, because with the sandbox, absolutely NO pages load. NONE. Just ignore the warning!

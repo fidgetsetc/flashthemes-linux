@@ -5,7 +5,7 @@
 ONLY use this browser for FlashThemes. Going on any other websites can cause your device and browser to be exploited.
 Also, do not share your setup with other people, unless all sensitive data has been cleared from the profile. It is best to share this repo with them instead.
 ## What even is FlashThemes?
-FlashThemes is a free-to-use revival of old GoAnimate, mainly using Flash. You have to use it with specific browsers, and the main tutorial mainly shows Windows and MacOS X. Not Linux. That is why this repo exists.
+FlashThemes is a free-to-use revival of old GoAnimate, mainly using Flash. You have to use it with specific browsers, and the main tutorial mainly shows Windows and MacOS X. Not Linux. That is why this repo exists. The website can be found at https://flashthemes.net
 ## How to begin
 - Open a terminal
 - Install the following dependencies with your package manager: `git git-lfs`

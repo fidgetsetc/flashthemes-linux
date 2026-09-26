@@ -15,8 +15,8 @@ FlashThemes is a free-to-use revival of old GoAnimate, mainly using Flash. You h
 - Run either of the scripts (example: `./start_v75-app.sh
 - Check your terminal for instructions!
 ## What's the difference between v75 and v87?
-v75 supports Flash entirely, you have to enable Flash manually, but it needs much less effort. It uses a newer profile, so you do get an error message, but it should work.
-v87 is newer, but Flash support is messy. But, the profile is built for it.
+v75 supports Flash entirely, you have to enable Flash manually, but it needs much less effort. It should work, and is the recommended one.
+v87 is newer, but Flash support is messy.
 ## Which version should I pick?
 For the least effort, pick v75. It's the better one to choose. v87 was the version used for internal testing, but is not recommended. v87 is there if you absolutely need a newer browser for whatever reason, but v75 does the job better. v87 doesn't need that much effort but overall just isn't ideal.
 ## What is the app variant?

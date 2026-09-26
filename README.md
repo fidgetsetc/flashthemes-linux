@@ -12,13 +12,15 @@ FlashThemes is a free-to-use revival of old GoAnimate, mainly using Flash. You h
 - Run `git lfs install`
 - Run `git clone https://github.com/fidgetsetc/flashthemes-linux`
 - Run `cd flashthemes-linux`
-- Run either `./start_v87.sh` or `./start_v75.sh`.
+- Run either of the scripts (example: `./start_v75-app.sh
 - Check your terminal for instructions!
 ## What's the difference between v75 and v87?
 v75 supports Flash entirely, you have to enable Flash manually, but it needs much less effort. It uses a newer profile, so you do get an error message, but it should work.
 v87 is newer, but Flash support is messy. But, the profile is built for it.
 ## Which version should I pick?
 For the least effort, pick v75. It's the better one to choose. v87 was the version used for internal testing, but is not recommended. v87 is there if you absolutely need a newer browser for whatever reason, but v75 does the job better. v87 doesn't need that much effort but overall just isn't ideal.
+## What is the app variant?
+The `app` variants open FlashThemes in Chromium's App Mode, making it look much more seamless with the rest of your system!
 ## Known issues
 - v75 appears to have major graphical issues on GNOME 48.7, and graphical issues may occur on other GNOME versions. We cannot fix this, it is a Chromium issue. This was in a VM, graphical issues may be different on your system.
 - I have not experienced this, but it will probably happen, but GTK themes may not work well with the browser. GTK themes are the default to fit in with your system more, but sometimes they don't work as expected. If you don't want to change your GTK theme, you can go into Chromium Settings, scroll down to Appearance, and then click Use Classic. This will set the theme to the default Chrome colors!
@@ -38,5 +40,5 @@ It has been tested on Debian 13.7 Trixie, running KDE Plasma.
 - Adobe Flash Player (Pepper/PPAPI) so
 - ungoogled-chromium 87 Linux tar.gz
 - ungoogled-chromium 75 Linux tar.gz
-## What's with the sandbox? Why is there no sandbox?
-A sandbox isn't included, because on newer systems, the sandbox causes all pages to fail loading. You can safely close the error, it seems to not cause much issue anyways.
+## Sandbox notice
+The sandbox has been disabled. It has been done because with the sandbox, no pages would load. It's a security restriction on newer kernels that causes the sandbox to be non-functional for loading pages, but you don't meed to worry about it, as it does not appear to affect much. In earlier revisions, the sandbox error was there every time, but now via the `--test-type` flag, the sandbox error is no longer there.

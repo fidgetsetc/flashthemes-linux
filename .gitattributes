@@ -1,3 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+data/web75/chrome filter=lfs diff=lfs merge=lfs -text
+data/web/chrome filter=lfs diff=lfs merge=lfs -text
 chrome filter=lfs diff=lfs merge=lfs -text

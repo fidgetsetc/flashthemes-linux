@@ -1,16 +1,16 @@
 # FlashThemes for Linux
-## DISCLAIMER
-### We are NOT affiliated with the FlashThemes project. This is a fan-made project, and not official. I haven't infected my OWN repo, but still take caution.
 ## Security Warning
 ONLY use this browser for FlashThemes. Going on any other websites can cause your device and browser to be exploited.
-Also, do not share your setup with other people, unless all sensitive data has been cleared from the profile. It is best to share this repo with them instead.
+Also, do not share your setup with other people, unless all sensitive data has been cleared from the profile. It is best to share the repo itself with them instead of sending your files to them; the profile is contained inside of the files.
 ## What even is FlashThemes?
 FlashThemes is a free-to-use revival of old GoAnimate, mainly using Flash. You have to use it with specific browsers, and the main tutorial mainly shows Windows and MacOS X. Not Linux. That is why this repo exists. The website can be found at https://flashthemes.net
+## DISCLAIMER
+### We are NOT affiliated with the FlashThemes project. This is a fan-made project, and not official. I haven't infected my OWN repo, but still take caution.
 ## How to begin
 - Open a terminal
 - Install the following dependencies with your package manager: `git git-lfs`
 - Run `git lfs install`
-- Run `git pull https://github.com/fidgetsetc/flashthemes-linux`
+- Run `git clone https://github.com/fidgetsetc/flashthemes-linux`
 - Run `cd flashthemes-linux`
 - Run either `./start_v87.sh` or `./start_v75.sh`.
 - Check your terminal for instructions!
@@ -39,4 +39,4 @@ It has been tested on Debian 13.7 Trixie, running KDE Plasma.
 - ungoogled-chromium 87 Linux tar.gz
 - ungoogled-chromium 75 Linux tar.gz
 ## What's with the sandbox? Why is there no sandbox?
-There is no sandbox, because with the sandbox, absolutely NO pages load. NONE. Just ignore the warning!
+A sandbox isn't included, because on newer systems, the sandbox causes all pages to fail loading. You can safely close the error, it seems to not cause much issue anyways.

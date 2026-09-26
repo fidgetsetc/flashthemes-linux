@@ -7,14 +7,14 @@ Also, do not share your setup with other people, unless all sensitive data has b
 ## How to begin
 - Clone the repo (or download zip and extract)
 - In the terminal, make sure you are in the extracted directory (not data)
-- Run start_v75.sh or start_88.sh
+- Run start_v75.sh or start_87.sh
 - Now it should be running!
 - Make sure to check the terminal for any instructions.
-## What's the difference between v75 and v88?
+## What's the difference between v75 and v87?
 v75 supports Flash entirely, you have to enable Flash manually, but it needs much less effort. It uses a newer profile, so you do get an error message, but it should work.
-v88 is newer, but Flash support is messy. But, the profile is built for it.
+v87 is newer, but Flash support is messy. But, the profile is built for it.
 ## Which version should I pick?
-For the least effort, pick v75. It's the better one to choose. v88 was the version used for internal testing, but is not recommended. v88 is there if you absolutely need a newer browser for whatever reason, but v75 does the job better.
+For the least effort, pick v75. It's the better one to choose. v87 was the version used for internal testing, but is not recommended. v87 is there if you absolutely need a newer browser for whatever reason, but v75 does the job better.
 ## Will there be more versions?
 Possibly. Older versions may need me to run older Debian versions in a VM, but if you want to do some testing, absolutely, go for it, I might merge it.
 ## Do I need to do much?

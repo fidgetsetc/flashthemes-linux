@@ -1,6 +1,6 @@
 # FlashThemes for Linux
 ## DISCLAIMER
-### We are NOT affiliated with the FlashThemes project. This is a fan-made project, and not official. I haven't infected the project, but still take caution.
+### We are NOT affiliated with the FlashThemes project. This is a fan-made project, and not official. I haven't infected my OWN repo, but still take caution.
 ## Security Warning
 ONLY use this browser for FlashThemes. Going on any other websites can cause your device and browser to be exploited.
 Also, do not share your setup with other people, unless all sensitive data has been cleared from the profile. It is best to share this repo with them instead.

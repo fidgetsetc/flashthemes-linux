@@ -24,6 +24,7 @@ The `app` variants open FlashThemes in Chromium's App Mode, making it look much 
 ## Known issues
 - v75 appears to have major graphical issues on GNOME 48.7, and graphical issues may occur on other GNOME versions. We cannot fix this, it is a Chromium issue. This was in a VM, graphical issues may be different on your system.
 - I have not experienced this, but it will probably happen, but GTK themes may not work well with the browser. GTK themes are the default to fit in with your system more, but sometimes they don't work as expected. If you don't want to change your GTK theme, you can go into Chromium Settings, scroll down to Appearance, and then click Use Classic. This will set the theme to the default Chrome colors!
+- v75 shows a profile error after you have opened it in v87. However, you can fix it by going into data, then webprofile, then Default, and then deleting the "Web Data" file. This will not delete anything other than autofill data.
 ## Will there be more versions?
 Possibly. Older versions may need me to run older Debian versions in a VM, but if you want to do some testing, absolutely, go for it, I might merge it.
 ## Do I need to do much?
